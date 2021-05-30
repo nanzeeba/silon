@@ -1,0 +1,165 @@
+
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px){
+	/*downbar start*/
+	.d_nav:hover::after {
+	color: #FF5353;
+    width: 22%;
+	}
+	/*downbar end*/
+
+	/*hero start*/
+	.hero_h1 {
+    font-size: 2.2rem;
+    text-transform: capitalize;
+	}
+	/*hero end*/
+
+	/*discount start*/
+
+	.hero_btn{
+	width: 45%;
+	}
+	/*discount end*/
+
+	/*footer start*/
+	.f_btn_two {
+    width: 44%;
+	}
+	/*foooter end*/
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px){
+	/*downbar start*/
+	.d_nav:hover::after {
+	color: #FF5353;
+    width: 50%;
+	}
+	/*downbar end*/
+
+	/*discount start*/
+
+	.hero_btn{
+	width: 45%;
+	}
+	/*discount end*/
+
+	/*footer start*/
+	.f_btn_two {
+    width: 26%;
+	}
+	/*foooter end*/
+} 
+
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	.topbar, .tb_btn{
+	font-size: 11px;
+	}
+	.tb_right{
+	margin-left: 12%
+	}
+	/*downbar start*/
+	.d_nav:hover::after {
+	color: #FF5353;
+    width: 10%;
+	}
+	/*downbar end*/
+
+	/*hero start*/
+	.hero{
+  	font-size: 1rem;
+	}
+	.hero_h1 {
+    font-size: 3rem;
+	}
+	/*hero end*/
+
+	/*discount start*/
+
+	.hero_btn{
+	width: 35%;
+	}
+	/*discount end*/
+
+	/*delivery start*/
+	.box-title{
+    font-size: 19px;
+	}
+	/*delivery end*/
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	/*topbar start*/
+	.topbar, .tb_btn{
+	font-size: 14px;
+	}
+	.tb_right{
+	margin-left: 20%
+	}
+	.hero_h1 {
+	font-size: 2.7rem;
+	}
+	/*hero end*/
+
+	/*discount start*/
+
+	.hero_btn{
+	width: 25%;
+	}
+	/*discount end*/
+
+	/*delivery start*/
+	.box-title{
+    font-size: 23px;
+    letter-spacing: 2px;
+    word-spacing: 6px;
+	}
+	/*delivery end*/
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+	/*topbar start*/
+	.tb_right{
+	margin-left: 22%
+	}
+	/*hero start*/
+
+}
+
+@media (min-width: 1400px) and (max-width: 1699.98px) { 
+	/*hero start*/
+	.hero_h1 {
+	    font-size: 4.2rem;
+	    text-transform: capitalize;
+	}
+	/*hero end*/
+}
+
+@media (min-width: 1700px) and (max-width: 1999.98px) { 
+	/*hero start*/
+	.hero_h1 {
+	    font-size: 4.2rem;
+	    text-transform: capitalize;
+	}
+	/*hero end*/
+}
+
+
+/*Extra Etra large devices (large desktops, 1200px and up)*/
+@media (min-width: 2000px) { 
+	/*hero start*/
+	.hero_h1 {
+    font-size: 6rem;
+    text-transform: capitalize;
+}
+	/*hero end*/
+}
+
